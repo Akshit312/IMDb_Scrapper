@@ -136,7 +136,7 @@ for xin in seasons:
                 data = "  Status"  + " : The show has finished streaming all its episodes"
 
 
-            try:                                                                #Try and except for the image available on the website
+            try:                                                                #Check if image is available on the IMDb website
                 image = """<tr>
                       <td width="80" valign="top" bgcolor="d0d0d0" style="padding:5px;">
                       <img src=\"""" + link_img.img.get("src") + """\" width="80" height="120"/>
@@ -190,7 +190,8 @@ else:
         server.quit()
         print "Email sent successfully"
     except smtplib.SMTPException:
-            print("error sending message")   
+        print "error sending message"
+               
            
                     
 
