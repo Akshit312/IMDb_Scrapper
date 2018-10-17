@@ -10,7 +10,7 @@ This script requires email address and list of favourite TV series for multiple 
   
 ## Initial Configurations
 
-Input your mail details into the from variable and password variable in the script. Also, while using Gmail, enable the Access to less secure apps in order to allow the python script to be able to send mails via it.
+Edit psswrd.py by entering the your mail details -Email ID and password variable in the script and also the username and password of mysql. Also, while using Gmail, enable the Access to less secure apps in order to allow the python script to be able to send mails via it.
 
 ## Requirements
 
@@ -20,7 +20,7 @@ Input your mail details into the from variable and password variable in the scri
 4. Internet connectivity.
 
 ## Running the script
- Download the files IMDb_main.py, psswrd.py, date_compare.py in the same directory. Edit the psswrd.py file with the senders email and password. Also edit the IMDb_main.py with mysql user and psswrd. Runt the following command in the directory where it is downloaded: python IMDb_main.py and follow the below given steps.
+ Download the files IMDb_main.py, psswrd.py, date_compare.py in the same directory. Edit the psswrd.py file with the senders email and password. Also edit the IMDb_main.py with mysql user and psswrd. Run the following command in the directory where it is downloaded: python IMDb_main.py and follow the below given steps.
 
 ## Working
   
