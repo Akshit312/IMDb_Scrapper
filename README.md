@@ -10,7 +10,7 @@ This script requires email address and list of favourite TV series for multiple 
   
 ## Initial Configurations
 
-Edit psswrd.py by entering the your mail details -Email ID and password variable in the script and also the username and password of mysql. Also, while using Gmail, enable the Access to less secure apps in order to allow the python script to be able to send mails via it.
+Edit psswrd.py by entering the your mail details -Email ID and password variable in the script and also the username and password of mysql. Also, while using Gmail, enable the **Access to less secure apps** in order to allow the python script to be able to send mails via it.
 
 ## Requirements
 
@@ -29,7 +29,7 @@ Edit psswrd.py by entering the your mail details -Email ID and password variable
  Enter the email id and the TV Shows for which you want to find out the release dates of the next episode separated by commas.
 ![email_input](https://github.com/Akshit312/IMDb_Scrapper/blob/master/data/email_input.png)
 
- The script will scrape the search results from IMDb and will ask you for a choice, for each TV Series you mentioned. It is         assumed that the desired TV Series is in the top 5 search results when searched in the TV category on IMDb website.
+ The script will scrape the search results from IMDb and will ask you for a choice, for each TV Series you mentioned. It is         assumed that the desired TV Series is in the top 5 search results when searched in the **TV category on IMDb website**.
 ![index_input](https://github.com/Akshit312/IMDb_Scrapper/blob/master/data/index_input.png)
 
 ### Output
