@@ -2,7 +2,7 @@
 
  This is a project for Innovaccer Hacker Camp 2019 
 
-This script requires email address and list of favourite TV series for multiple users as input.Store the input data in MySQLdb table(s).A single email is sent to the input email address with all the appropriate response for every TV series. The content of the mail could depend on the following use cases:
+This script requires email address and list of favourite TV series for multiple users as input. Stores the input data in MySQLdb table(s). A single email is sent to the provided email address with all the appropriate response for every TV series. The content of the mail could depend on the following use cases:
 
   1. Exact date is mentioned for next episode.
   2. Only year is mentioned for next season.
@@ -14,10 +14,10 @@ Input your mail details into the from variable and password variable in the scri
 
 ## Requirements
 
-1. Python2 must be preinstalled
-2. bs4 package - for scraping the web using python
+1. Python2 must be preinstalled.
+2. bs4 package - for scraping the web using python.
 3. Mysql, mysql.connector must be preinstalled.
-4. Internet connectivity
+4. Internet connectivity.
 
 ## Running the script
  Download the files IMDb_main.py, psswrd.py, date_compare.py in the same directory. Edit the psswrd.py file with the senders email and password. Also edit the IMDb_main.py with mysql user and psswrd. Runt the following command in the directory where it is downloaded: python IMDb_main.py and follow the below given steps.
@@ -36,7 +36,7 @@ Input your mail details into the from variable and password variable in the scri
  The output on the terminal will be as follows, for the TV Shows you’ve entered -
 ![terminal_output](https://github.com/Akshit312/IMDb_Scrapper/blob/master/data/terminal_output.png)
 
- Mail will be sent to the given email ID with all the information for The TV Series entered in the input in the following format :
+ Mail will be sent to the provided email ID with all the information for The TV Series entered in the input in the following format :
  <p align="center">
 <img src="https://github.com/Akshit312/IMDb_Scrapper/blob/master/data/Screenshot_2018-10-17-12-15-17.png" height = "360" width="202.5"> 
   </p>
