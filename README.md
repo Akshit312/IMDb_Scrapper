@@ -1,6 +1,6 @@
 # IMDb_Scrapper
 
- This is a project for Innovaccer Hacker Camp 2019 
+
 
 This script requires email address and list of favourite TV series for multiple users as input. Stores the input data in MySQLdb table(s). A single email is sent to the provided email address with all the appropriate response for every TV series. The content of the mail could depend on the following use cases:
 
